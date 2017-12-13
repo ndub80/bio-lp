@@ -1,0 +1,25 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'custom';
+
+body{
+	background: #fff;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+#header{
+	background: #fff;
+	background-image: url(/assets/header-background.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #777;
+	
+	.row{
+		height: 500px;
+	}
+}
+
+#main{
+	background: #587992;
+	color: #fff;
+}
